@@ -111,7 +111,7 @@ static void __exit i2c_client_module_exit(void)
     i2c_del_driver(&i2c_sensor_driver);
 }
 
-MODULE_AUTHOR("Jaeson  <djs6421@qucell.com>");
+MODULE_AUTHOR("Jaeson  <djs6421@gmail.com>");
 MODULE_DESCRIPTION("i2c client driver");
 
 module_init(i2c_client_module_init);
